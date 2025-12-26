@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ffprobe:*)",
+      "Bash(ffmpeg:*)",
+      "Bash(python analizar_video.py:*)",
+      "Bash(python:*)",
+      "Bash(jupyter notebook:*)",
+      "Bash(pip install:*)",
+      "Bash(del readme.md)",
+      "Bash(dir:*)",
+      "Bash(if exist temp_cell13.py del temp_cell13.py)",
+      "Bash(del temp_export_function.py:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
